@@ -30,7 +30,11 @@ O projeto foi desenvolvido para demonstrar a aplicação de padrões corporativo
 ## 🚀 Como Executar?
 ```
 docker build -t btc-checker .
-docker run -d -p 5000:8080 --name btc-app btc-price-checker
+docker run -d -p 5000:8080 --name btc-app btc-checker
+```
+
+## 🤖 Como Testar?
+```
 curl http://localhost:5000/get-bitcoin-price
 ```
 
